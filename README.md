@@ -2,6 +2,10 @@
  
 アイテムを無限に収納できる機能
 
+## DL
+[__DownLoad__](https://github.com/Kvr0/StorageBox/releases/download/PreRelease/StorageBox.zip)
+
+
 ## 使い方
 `minecraft:diamond`に下記リストの名前を付け以下の動作で利用
 - メインハンドに持ち`Sneak`でアイテムを収納
