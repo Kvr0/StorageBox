@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "storagebox.sneaktime": 4
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "mainhand": {
+                    "items": [
+                        "minecraft:diamond"
+                    ],
+                    "nbt": "{display:{Name:'{\"text\":\"Storage:Cobblestone\"}'}}"
+                }
+            }
+        }
+    }
+]
