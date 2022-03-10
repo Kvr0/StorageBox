@@ -1,0 +1,111 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "storagebox",
+        "color": "white",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": " [",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "nbt": "nbt.selected.tag.storagebox.id",
+        "storage": "entitytick:",
+        "color": "#00ff00",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "]",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Enchantments:[{}]}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "アイテム数 : ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "nbt.selected.tag.storagebox.count",
+          "storage": "entitytick:",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "格納",
+          "color": "white",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " オフハンドに持ち",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Sneak",
+          "color": "dark_purple",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "でアイテムを格納",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "取出",
+          "color": "white",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " メインハンドに持ち",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Sneak",
+          "color": "dark_purple",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "でアイテムを取出",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false
+  }
+]

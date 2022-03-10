@@ -1,0 +1,14 @@
+{
+    "parent": "storagebox:root",
+    "criteria": {
+        "a":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "storagebox:storagebox"
+            }
+        }
+    },
+    "rewards": {
+        "function": "storagebox:craft/_"
+    }
+}
