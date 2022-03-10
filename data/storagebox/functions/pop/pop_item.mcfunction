@@ -32,7 +32,7 @@
 ### Modify
     item modify entity 0000ab6d-0000-0000-0000-001d02b97be4 armor.head storagebox:item_data/mainhand
 ### Replace
-    item replace entity @s weapon.mainhand from entity 0000ab6d-0000-0000-0000-001d02b97be4 armor.head
+    execute unless score $storagebox:push/_.last_count temporary = $storagebox:push/_.count temporary run item replace entity @s weapon.mainhand from entity 0000ab6d-0000-0000-0000-001d02b97be4 armor.head
 
 ## Effect
     execute unless score $storagebox:pop/pop_item.item_count temporary matches 0 run playsound block.amethyst_block.hit player @s ~ ~ ~ 1 2

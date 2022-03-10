@@ -78,6 +78,32 @@
           "bold": false,
           "italic": false
         }
+      ],
+      [
+        {
+          "text": "取出",
+          "color": "white",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": " メインハンドに持ち",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Sneak",
+          "color": "dark_purple",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "でアイテムを取出",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
       ]
     ],
     "replace": false
