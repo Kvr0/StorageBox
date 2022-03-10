@@ -3,7 +3,7 @@
 アイテムを無限に収納できる機能
 
 ## DL
-[__DownLoad__](https://github.com/Kvr0/StorageBox/releases/latest/StorageBox.zip)
+[__DownLoad__](https://github.com/Kvr0/StorageBox/releases/latest/download/StorageBox.zip)
 
 
 ## 使い方
