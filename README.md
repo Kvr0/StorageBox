@@ -5,6 +5,8 @@
 ## DL
 [__DownLoad__](https://github.com/Kvr0/StorageBox/releases/latest/StorageBox.zip)
 
+## 前提データパック
+- [`s4core`](https://github.com/Kvr0/s4core)
 
 ## 使い方
 1. 以下のレシピでストレージボックスを作成
