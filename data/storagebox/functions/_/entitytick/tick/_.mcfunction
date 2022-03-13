@@ -1,6 +1,9 @@
 #> storagebox:_/entitytick/tick/_
 # @within tag/function entitytick:tick/player
 
+## Open
+    function calculation:session/open
+
 ## Offhand
     data modify storage entitytick: nbt.offhand set value {}
     data modify storage entitytick: nbt.offhand set from storage entitytick: nbt.Inventory[{Slot:-106b}]
@@ -19,3 +22,6 @@
 
 ## Sneak Time
     execute unless predicate storagebox:sneaking run scoreboard players reset @s storagebox.sneaktime
+
+## Close
+    function calculation:session/close
